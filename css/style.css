@@ -487,14 +487,14 @@ footer .footer-lists {
   color: #3f3f3f;
   font-size: 0.5rem;
   font-weight: bold;
-  letter-spacing: -0.3px;
   max-width: 300px;
   margin: 0.5rem;
+  padding: 0.8rem 0.8rem;
 }
 footer .pie-pagina {
   font-weight: lighter;
   color: black;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-decoration: none;
 }
 footer .footer-lists-second {
@@ -505,23 +505,24 @@ footer .footer-lists-second {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   color: #3f3f3f;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   font-weight: bold;
   margin: 0.5rem;
 }
 footer .footer-lists-second a {
   color: #CCCCCC;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: bold;
   text-decoration: none;
-  letter-spacing: -0.3px;
+  text-align: center;
   max-width: 300px;
 }
 footer .footer-lists-second .pie-pagina {
   font-weight: normal;
   color: black;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-decoration: none;
+  text-align: center;
 }
 footer .footer-socials {
   display: flex;
