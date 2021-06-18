@@ -11,11 +11,15 @@ footer {
     background-color: $bg-color-footer;
     border-radius: 1rem;
 
+    @media (max-width: 768px) {
+        background-color: #f49b4a;
+        
+    }
 
     .footer-lists {
         text-decoration: none;
         color: rgb(63, 63, 63);
-        font-size: 1rem;
+        font-size: 0.5rem;
         font-weight: bold;
         letter-spacing: -0.3px;
         max-width: 300px;
@@ -26,7 +30,7 @@ footer {
     .pie-pagina {
         font-weight: lighter;
         color: $text-color1;
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         text-decoration: none;
         
     }
@@ -38,7 +42,7 @@ footer {
         text-decoration: none;
         font-family: $ff ;
         color: rgb(63, 63, 63);
-        font-size: 1rem;
+        font-size: 0.5rem;
         font-weight: bold;
         margin: 0.5rem;
     }
@@ -53,7 +57,7 @@ footer {
     .footer-lists-second .pie-pagina {
         font-weight: normal;
         color: $text-color1;
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         text-decoration: none;
     }
     
@@ -68,15 +72,16 @@ footer {
     .footer-socials h4 {
         text-decoration: none;
         color: rgb(63, 63, 63);
-        font-size: 1rem;
+        font-size: 0.5rem;
         font-weight: bold;
     }
     .footer-socials img {
-        width: 2vw;
-        height: 2vw;
+        width: 3vw;
+        height: 3vw;
         object-position: left;
         display: flex;
         justify-content: space-between;
+        padding: 0.5rem 0.5rem;
 
     }
     .footer-socials a {

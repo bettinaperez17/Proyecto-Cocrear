@@ -20,12 +20,19 @@ nav{
         font-weight: bold;
     }
 
-}
-.dropdown-menu {
+
+   .dropdown-menu {
     background-color: #f49b4a;
     color: black;
     font-family: 'Montserrat', sans-serif;;
     border-radius: 0.5rem;
+   }
+    
+   @media (max-width: 768px) {
+       background-color: #f49b4a;
+       
+   }
+    
     
    
 }

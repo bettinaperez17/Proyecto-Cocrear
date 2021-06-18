@@ -26,12 +26,16 @@ nav ul li a {
   font-size: 1rem;
   font-weight: bold;
 }
-
-.dropdown-menu {
+nav .dropdown-menu {
   background-color: #f49b4a;
   color: black;
   font-family: "Montserrat", sans-serif;
   border-radius: 0.5rem;
+}
+@media (max-width: 768px) {
+  nav {
+    background-color: #f49b4a;
+  }
 }
 
 /* fin header */
@@ -473,10 +477,15 @@ footer {
   background-color: #FF8C00;
   border-radius: 1rem;
 }
+@media (max-width: 768px) {
+  footer {
+    background-color: #f49b4a;
+  }
+}
 footer .footer-lists {
   text-decoration: none;
   color: #3f3f3f;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: bold;
   letter-spacing: -0.3px;
   max-width: 300px;
@@ -485,7 +494,7 @@ footer .footer-lists {
 footer .pie-pagina {
   font-weight: lighter;
   color: black;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   text-decoration: none;
 }
 footer .footer-lists-second {
@@ -496,7 +505,7 @@ footer .footer-lists-second {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
   color: #3f3f3f;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: bold;
   margin: 0.5rem;
 }
@@ -511,7 +520,7 @@ footer .footer-lists-second a {
 footer .footer-lists-second .pie-pagina {
   font-weight: normal;
   color: black;
-  font-size: 0.9rem;
+  font-size: 0.5rem;
   text-decoration: none;
 }
 footer .footer-socials {
@@ -524,15 +533,16 @@ footer .footer-socials div {
 footer .footer-socials h4 {
   text-decoration: none;
   color: #3f3f3f;
-  font-size: 1rem;
+  font-size: 0.5rem;
   font-weight: bold;
 }
 footer .footer-socials img {
-  width: 2vw;
-  height: 2vw;
+  width: 3vw;
+  height: 3vw;
   object-position: left;
   display: flex;
   justify-content: space-between;
+  padding: 0.5rem 0.5rem;
 }
 footer .footer-socials a {
   color: #CCCCCC;

@@ -11,5 +11,13 @@
     "node-sass": "^4.13.1"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettinaperez17/Proyecto-Cocrear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bettinaperez17/Proyecto-Cocrear/issues"
+  },
+  "homepage": "https://github.com/bettinaperez17/Proyecto-Cocrear#readme",
   "description": ""
 }
