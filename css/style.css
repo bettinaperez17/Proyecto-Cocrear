@@ -404,38 +404,35 @@ main .containerNueve div .mail {
 main .form {
   background-attachment: fixed;
   margin: 0;
-  font-family: monospace;
-}
-main form {
+  font-family: "Montserrat", sans-serif;
   width: 80%;
   margin: auto;
   background: rgba(243, 243, 243, 0.938);
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
-  border-radius: 10px;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
 }
-main .input,
-main textarea {
+main .form .input, main .form textarea {
   width: 100%;
   margin-bottom: 20px;
-  padding: 7px;
+  padding: 0.8rem;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 1rem;
   border: none;
 }
-main .textarea {
+main .form .textarea {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
 }
-main .botonContacto {
+main .form .botonContacto {
   background-color: #d4d4d4;
   text-decoration: solid;
   color: #363636;
-  padding: 20px;
+  padding: 1.2rem;
 }
-main .botonContacto:hover {
+main .form .botonContacto :hover {
   cursor: context-menu;
 }
 

@@ -413,45 +413,55 @@ main {
     .form {
         background-attachment: fixed;
         margin: 0;
-        font-family: monospace;
-    }
-    
-    form {
+        font-family: 'Montserrat', sans-serif;
         width: 80%;
         margin: auto;
         background: rgba(243, 243, 243, 0.938);
         padding: 10px 20px;
         box-sizing: border-box;
-        margin-top: 20px;
-        border-radius: 10px;
-    }
-    
-    .input,
-    textarea {
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+
+        .input,textarea {
         width: 100%;
         margin-bottom: 20px;
-        padding: 7px;
+        padding: 0.8rem;
         box-sizing: border-box;
-        font-size: 15px;
-        border: none;
+        font-size: 1rem;
+        border: none;}
+
+        .textarea {
+            min-height: 100px;
+            max-height: 200px;
+            max-width: 100%;
+        }
+
+        .botonContacto {
+            background-color: #d4d4d4;
+            text-decoration: solid;
+            color: rgb(54, 54, 54);
+            padding: 1.2rem;
+
+
+            :hover {
+                cursor: context-menu;
+            }
+        }
+
+
+
+
     }
     
-    .textarea {
-        min-height: 100px;
-        max-height: 200px;
-        max-width: 100%;
-    }
     
-    .botonContacto {
-        background-color: #d4d4d4;
-        text-decoration: solid;
-        color: rgb(54, 54, 54);
-        padding: 20px;
-    }
     
-    .botonContacto:hover {
-        cursor: context-menu;
-    }
+    
+    
+    
+    
+    
+    
+    
     
 
 
