@@ -412,22 +412,10 @@ main {
     
     .container-diez {
         display: flex;
-        justify-content: center;
+        justify-content:flex-end;
         flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
 
-        h4 {
-            font-weight: bold;
-            text-decoration: none;
-            color: black;
-            font-size: 1.1rem;
-            text-align: center;
-            padding: 1rem;
-            margin: 1rem;
-            border-radius: 0.6rem;
-            background-color: #FFE6CE;
-            font-family: 'Montserrat', sans-serif;
-        }
         .form {
             background-color: #FFE6CE;
             width: 40%;
@@ -437,7 +425,41 @@ main {
             align-items: center;
             box-shadow: rgba($color: #000000, $alpha: 0.8) 0  2rem;
             border-radius: 1.2rem; 
+
+            h4 {
+                font-weight: bold;
+                text-decoration: none;
+                color: black;
+                font-size: 1.1rem;
+                text-align: center;
+                padding: 1rem;
+                margin: 1rem;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .input [type="text" ] {
+                border: none;
+                resize: none;
+                outline: none;
+                padding: 1rem;
+                width: 60%;
+                margin: 1.2rem;
+                transition: 300ms;
+                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
+
+            }
+
+
+
         }
+
+
+
+
+
+
+
+
 
 
     }
