@@ -410,59 +410,49 @@ main {
 
     }
     
-    .container-diez {
-        display: flex;
-        justify-content:flex-end;
-        flex-direction: column;
-        flex-wrap: wrap;
-
-        .form {
-            background-color: #FFE6CE;
-            width: 40%;
-            height: 60%;
-            padding: 1.5rem;
-            justify-content: center;
-            align-items: center;
-            box-shadow: rgba($color: #000000, $alpha: 0.8) 0  2rem;
-            border-radius: 1.2rem; 
-
-            h4 {
-                font-weight: bold;
-                text-decoration: none;
-                color: black;
-                font-size: 1.1rem;
-                text-align: center;
-                padding: 1rem;
-                margin: 1rem;
-                font-family: 'Montserrat', sans-serif;
-            }
-
-            .input [type="text" ] {
-                border: none;
-                resize: none;
-                outline: none;
-                padding: 1rem;
-                width: 60%;
-                margin: 1.2rem;
-                transition: 300ms;
-                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.5);
-
-            }
-
-
-
-        }
-
-
-
-
-
-
-
-
-
-
+    .form {
+        background-attachment: fixed;
+        margin: 0;
+        font-family: monospace;
     }
+    
+    form {
+        width: 80%;
+        margin: auto;
+        background: rgba(243, 243, 243, 0.938);
+        padding: 10px 20px;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+    .input,
+    textarea {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 15px;
+        border: none;
+    }
+    
+    .textarea {
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    
+    .botonContacto {
+        background-color: #d4d4d4;
+        text-decoration: solid;
+        color: rgb(54, 54, 54);
+        padding: 20px;
+    }
+    
+    .botonContacto:hover {
+        cursor: context-menu;
+    }
+    
 
 
 

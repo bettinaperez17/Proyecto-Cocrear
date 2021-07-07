@@ -401,41 +401,42 @@ main .containerNueve div .mail {
   width: 4vw;
   flex-direction: column;
 }
-main .container-diez {
-  display: flex;
-  justify-content: flex-end;
-  flex-direction: column;
-  flex-wrap: wrap;
+main .form {
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
 }
-main .container-diez .form {
-  background-color: #FFE6CE;
-  width: 40%;
-  height: 60%;
-  padding: 1.5rem;
-  justify-content: center;
-  align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.8) 0 2rem;
-  border-radius: 1.2rem;
+main form {
+  width: 80%;
+  margin: auto;
+  background: rgba(243, 243, 243, 0.938);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 10px;
 }
-main .container-diez .form h4 {
-  font-weight: bold;
-  text-decoration: none;
-  color: black;
-  font-size: 1.1rem;
-  text-align: center;
-  padding: 1rem;
-  margin: 1rem;
-  font-family: "Montserrat", sans-serif;
-}
-main .container-diez .form .input [type=text] {
+main .input,
+main textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
   border: none;
-  resize: none;
-  outline: none;
-  padding: 1rem;
-  width: 60%;
-  margin: 1.2rem;
-  transition: 300ms;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+main .textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+main .botonContacto {
+  background-color: #d4d4d4;
+  text-decoration: solid;
+  color: #363636;
+  padding: 20px;
+}
+main .botonContacto:hover {
+  cursor: context-menu;
 }
 
 /* fin main */
