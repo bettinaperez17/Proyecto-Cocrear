@@ -420,51 +420,14 @@ main .container-diez h4 {
   font-family: "Montserrat", sans-serif;
 }
 main .container-diez .form {
-  display: flex;
-  flex-flow: column;
   background-color: #FFE6CE;
   width: 40%;
   height: 60%;
   padding: 1.5rem;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.8) 0 40%;
-}
-main main {
-  background-color: #FFE6CE;
-  margin-bottom: 50px;
-}
-main html, main button, main input, main select, main textarea {
-  font-family: "Montserrat", Helvetica, sans-serif;
-  color: black;
-}
-main h1 {
-  text-align: center;
-  margin: 30px 15px;
-}
-main .zoom-area {
-  max-width: 490px;
-  margin: 30px auto 30px;
-  font-size: 19px;
-  text-align: center;
-}
-main .link-container {
-  text-align: center;
-}
-main a.more-link {
-  text-transform: uppercase;
-  font-size: 13px;
-  background-color: #f49b4a;
-  padding: 10px 15px;
-  border-radius: 0.5rem;
-  color: black;
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  line-height: 1.5;
-  text-decoration: none;
-  margin-top: 50px;
-  letter-spacing: 1px;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 2rem;
+  border-radius: 1.2rem;
 }
 
 /* fin main */
