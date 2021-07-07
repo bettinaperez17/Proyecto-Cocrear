@@ -401,13 +401,13 @@ main .containerNueve div .mail {
   width: 4vw;
   flex-direction: column;
 }
-main .containerDiez {
+main .container-diez {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
-main .containerDiez h4 {
+main .container-diez h4 {
   font-weight: bold;
   text-decoration: none;
   color: black;
@@ -417,7 +417,18 @@ main .containerDiez h4 {
   margin: 1rem;
   border-radius: 0.6rem;
   background-color: #FFE6CE;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+main .container-diez .form {
+  display: flex;
+  flex-flow: column;
+  background-color: #FFE6CE;
+  width: 40%;
+  height: 60%;
+  padding: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.8) 0 40%;
 }
 main main {
   background-color: #FFE6CE;
